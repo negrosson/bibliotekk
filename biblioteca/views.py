@@ -978,9 +978,28 @@ class ReportesAPI(mixins.ListModelMixin,
     
     def obtener_libros_populares(self):
         """Obtiene los 5 libros más prestados"""
-        libros_populares = Libro.objects.annotate(
-            total_prestamos=Count('ejemplares__prestamos')
-        ).order_by('-total_prestamos')[:5]
+        # 1. Obtener todos los libros
+        libros = Libro.objects.all()
+
+        # 2. Para cada libro, contar sus préstamos manualmente
+        libros_populares = []
+        for libro in libros:
+            # Contar préstamos de este libro
+            total = 0
+            for ejemplar in libro.ejemplares.all():
+                total += ejemplar.prestamos.count()
+            
+            # Agregar a la lista con el total
+            libros_populares.append({
+                'libro': libro,
+                'total_prestamos': total
+            })
+
+        # 3. Ordenar por total de préstamos (más a menos)
+        libros_populares.sort(key=lambda x: x['total_prestamos'], reverse=True)
+
+        # 4. Tomar solo los primeros 10
+        libros_populares = libros_populares[:10]
         
         return [
             {
@@ -1007,16 +1026,29 @@ class ReportesAPI(mixins.ListModelMixin,
     
     def obtener_prestamos_vencidos(self):
         """Obtiene préstamos vencidos"""
-        prestamos_vencidos = Prestamo.objects.filter(
-            estado='activo',
-            fecha_devolucion_esperada__lt=timezone.now() # si la fecha de devolucion esperada es menor a la fecha actual, se guardan en prestamos_vencidos
-        )
+        # 1. Obtener préstamos activos
+        prestamos_activos = Prestamo.objects.filter(estado='activo')
+
+        # 2. Filtrar vencidos manualmente
+        prestamos_vencidos = []
+        fecha_actual = timezone.now()
+
+        for prestamo in prestamos_activos:
+            # Verificar si está vencido
+            if prestamo.fecha_devolucion_esperada < fecha_actual:
+                # Calcular días de retraso
+                dias_retraso = (fecha_actual.date() - prestamo.fecha_devolucion_esperada.date()).days
+                
+                prestamos_vencidos.append({
+                    'prestamo': prestamo,
+                    'dias_retraso': dias_retraso
+                })
         
         return [ # despues de obtener los prestamos vencidos, se retorna un diccionario que contiene el usuario, el libro y los dias de retraso
             {
-                'usuario': prestamo.usuario.username, #con el punto se accede a los atributos del usuario
-                'libro': prestamo.ejemplar.libro.titulo,
-                'dias_retraso': (timezone.now() - prestamo.fecha_devolucion_esperada).days  #se le resta la fecha de devolucion esperada a la fecha actual y se guarda en dias_retraso
+                'usuario': prestamo['prestamo'].usuario.username, #con el punto se accede a los atributos del usuario
+                'libro': prestamo['prestamo'].ejemplar.libro.titulo,
+                'dias_retraso': prestamo['dias_retraso']
                 # .days es para obtener los dias de retraso
             }
             for prestamo in prestamos_vencidos
