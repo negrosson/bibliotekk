@@ -1,0 +1,35 @@
+[
+    {
+        "model": "biblioteca.sucursal",
+        "pk": 1,
+        "fields": {
+            "nombre": "Biblioteca Central",
+            "direccion": "Av. Principal 123, Centro Histórico",
+            "telefono": "555-1000",
+            "horario_atencion": "Lunes a Viernes: 8:00 - 20:00, Sábados: 9:00 - 18:00",
+            "activa": true
+        }
+    },
+    {
+        "model": "biblioteca.sucursal",
+        "pk": 2,
+        "fields": {
+            "nombre": "Biblioteca Norte",
+            "direccion": "Calle Norte 456, Zona Norte",
+            "telefono": "555-2000",
+            "horario_atencion": "Lunes a Viernes: 9:00 - 19:00, Sábados: 10:00 - 17:00",
+            "activa": true
+        }
+    },
+    {
+        "model": "biblioteca.sucursal",
+        "pk": 3,
+        "fields": {
+            "nombre": "Biblioteca Sur",
+            "direccion": "Boulevard Sur 789, Zona Sur",
+            "telefono": "555-3000",
+            "horario_atencion": "Lunes a Viernes: 8:30 - 19:30, Sábados: 9:30 - 16:30",
+            "activa": true
+        }
+    }
+] 

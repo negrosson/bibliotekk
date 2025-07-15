@@ -1,0 +1,302 @@
+[
+    {
+        "model": "biblioteca.libro",
+        "pk": 1,
+        "fields": {
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
+            "isbn": "9788497592208",
+            "genero": "Realismo mágico",
+            "anio_publicacion": 1967,
+            "editorial": "Editorial Sudamericana",
+            "descripcion": "Obra maestra de la literatura latinoamericana que narra la historia de la familia Buendía a lo largo de siete generaciones.",
+            "activo": true,
+            "fecha_agregado": "2024-01-10T10:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 2,
+        "fields": {
+            "titulo": "El Quijote",
+            "autor": "Miguel de Cervantes",
+            "isbn": "9788420412146",
+            "genero": "Novela clásica",
+            "anio_publicacion": 1605,
+            "editorial": "Francisco de Robles",
+            "descripcion": "Considerada la primera novela moderna, narra las aventuras de Don Quijote y su fiel escudero Sancho Panza.",
+            "activo": true,
+            "fecha_agregado": "2024-01-12T11:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 3,
+        "fields": {
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "isbn": "9788497592209",
+            "genero": "Ciencia ficción",
+            "anio_publicacion": 1949,
+            "editorial": "Secker & Warburg",
+            "descripcion": "Distopía que describe una sociedad totalitaria controlada por el Gran Hermano.",
+            "activo": true,
+            "fecha_agregado": "2024-01-15T12:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 4,
+        "fields": {
+            "titulo": "El Señor de los Anillos",
+            "autor": "J.R.R. Tolkien",
+            "isbn": "9788445071405",
+            "genero": "Fantasía",
+            "anio_publicacion": 1954,
+            "editorial": "Allen & Unwin",
+            "descripcion": "Épica historia de fantasía que sigue la misión de destruir el Anillo Único.",
+            "activo": true,
+            "fecha_agregado": "2024-01-18T13:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 5,
+        "fields": {
+            "titulo": "Donde habitan los ángeles",
+            "autor": "Claudia Celis",
+            "isbn": "9786071609554",
+            "genero": "Literatura juvenil",
+            "anio_publicacion": 2010,
+            "editorial": "Ediciones SM",
+            "descripcion": "Historia conmovedora sobre la amistad y la superación de dificultades.",
+            "activo": true,
+            "fecha_agregado": "2024-01-20T14:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 6,
+        "fields": {
+            "titulo": "El Principito",
+            "autor": "Antoine de Saint-Exupéry",
+            "isbn": "9788497592210",
+            "genero": "Literatura infantil",
+            "anio_publicacion": 1943,
+            "editorial": "Reynal & Hitchcock",
+            "descripcion": "Cuento poético que aborda temas profundos como el amor, la amistad y el sentido de la vida.",
+            "activo": true,
+            "fecha_agregado": "2024-01-22T15:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 7,
+        "fields": {
+            "titulo": "Los miserables",
+            "autor": "Victor Hugo",
+            "isbn": "9788497592211",
+            "genero": "Novela histórica",
+            "anio_publicacion": 1862,
+            "editorial": "A. Lacroix, Verboeckhoven & Cie",
+            "descripcion": "Obra maestra que retrata la sociedad francesa del siglo XIX a través de la historia de Jean Valjean.",
+            "activo": true,
+            "fecha_agregado": "2024-01-25T16:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 8,
+        "fields": {
+            "titulo": "El código Da Vinci",
+            "autor": "Dan Brown",
+            "isbn": "9788497592212",
+            "genero": "Suspenso",
+            "anio_publicacion": 2003,
+            "editorial": "Doubleday",
+            "descripcion": "Thriller que combina arte, religión y misterio en una trama apasionante.",
+            "activo": true,
+            "fecha_agregado": "2024-01-28T17:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 9,
+        "fields": {
+            "titulo": "Harry Potter y la piedra filosofal",
+            "autor": "J.K. Rowling",
+            "isbn": "9788497592213",
+            "genero": "Fantasía",
+            "anio_publicacion": 1997,
+            "editorial": "Bloomsbury",
+            "descripcion": "Primera entrega de la saga que introduce al mundo mágico de Hogwarts.",
+            "activo": true,
+            "fecha_agregado": "2024-02-01T18:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 10,
+        "fields": {
+            "titulo": "El alquimista",
+            "autor": "Paulo Coelho",
+            "isbn": "9788497592214",
+            "genero": "Novela filosófica",
+            "anio_publicacion": 1988,
+            "editorial": "Editorial Planeta",
+            "descripcion": "Historia inspiradora sobre seguir los sueños y encontrar el destino personal.",
+            "activo": true,
+            "fecha_agregado": "2024-02-05T19:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 11,
+        "fields": {
+            "titulo": "Orgullo y prejuicio",
+            "autor": "Jane Austen",
+            "isbn": "9788497592215",
+            "genero": "Romance",
+            "anio_publicacion": 1813,
+            "editorial": "T. Egerton",
+            "descripcion": "Clásico del romance que explora las relaciones sociales en la Inglaterra del siglo XIX.",
+            "activo": true,
+            "fecha_agregado": "2024-02-08T20:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 12,
+        "fields": {
+            "titulo": "El nombre del viento",
+            "autor": "Patrick Rothfuss",
+            "isbn": "9788497592216",
+            "genero": "Fantasía",
+            "anio_publicacion": 2007,
+            "editorial": "DAW Books",
+            "descripcion": "Primera parte de la Crónica del Asesino de Reyes, una historia épica de fantasía.",
+            "activo": true,
+            "fecha_agregado": "2024-02-10T21:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 13,
+        "fields": {
+            "titulo": "Los juegos del hambre",
+            "autor": "Suzanne Collins",
+            "isbn": "9788497592217",
+            "genero": "Ciencia ficción",
+            "anio_publicacion": 2008,
+            "editorial": "Scholastic",
+            "descripcion": "Primera entrega de la trilogía que narra la lucha por la supervivencia en un mundo distópico.",
+            "activo": true,
+            "fecha_agregado": "2024-02-12T22:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 14,
+        "fields": {
+            "titulo": "El retrato de Dorian Gray",
+            "autor": "Oscar Wilde",
+            "isbn": "9788497592218",
+            "genero": "Gótico",
+            "anio_publicacion": 1890,
+            "editorial": "Ward, Lock & Co",
+            "descripcion": "Novela gótica que explora temas de belleza, moralidad y la naturaleza del arte.",
+            "activo": true,
+            "fecha_agregado": "2024-02-15T23:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 15,
+        "fields": {
+            "titulo": "El guardián entre el centeno",
+            "autor": "J.D. Salinger",
+            "isbn": "9788497592219",
+            "genero": "Literatura juvenil",
+            "anio_publicacion": 1951,
+            "editorial": "Little, Brown and Company",
+            "descripcion": "Clásico de la literatura juvenil que explora la alienación y la pérdida de la inocencia.",
+            "activo": true,
+            "fecha_agregado": "2024-02-18T00:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 16,
+        "fields": {
+            "titulo": "El hobbit",
+            "autor": "J.R.R. Tolkien",
+            "isbn": "9788497592220",
+            "genero": "Fantasía",
+            "anio_publicacion": 1937,
+            "editorial": "Allen & Unwin",
+            "descripcion": "Aventura épica que precede a El Señor de los Anillos, narrando el viaje de Bilbo Bolsón.",
+            "activo": true,
+            "fecha_agregado": "2024-02-20T01:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 17,
+        "fields": {
+            "titulo": "Crimen y castigo",
+            "autor": "Fiódor Dostoyevski",
+            "isbn": "9788497592221",
+            "genero": "Novela psicológica",
+            "anio_publicacion": 1866,
+            "editorial": "El Mensajero Ruso",
+            "descripcion": "Exploración profunda de la psicología humana y las consecuencias morales del crimen.",
+            "activo": true,
+            "fecha_agregado": "2024-02-22T02:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 18,
+        "fields": {
+            "titulo": "El gran Gatsby",
+            "autor": "F. Scott Fitzgerald",
+            "isbn": "9788497592222",
+            "genero": "Novela clásica",
+            "anio_publicacion": 1925,
+            "editorial": "Charles Scribner's Sons",
+            "descripcion": "Retrato de la sociedad estadounidense durante los años 20 y el sueño americano.",
+            "activo": true,
+            "fecha_agregado": "2024-02-25T03:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 19,
+        "fields": {
+            "titulo": "Rayuela",
+            "autor": "Julio Cortázar",
+            "isbn": "9788497592223",
+            "genero": "Novela experimental",
+            "anio_publicacion": 1963,
+            "editorial": "Editorial Sudamericana",
+            "descripcion": "Obra experimental que puede leerse en múltiples órdenes, explorando la condición humana.",
+            "activo": true,
+            "fecha_agregado": "2024-02-28T04:00:00Z"
+        }
+    },
+    {
+        "model": "biblioteca.libro",
+        "pk": 20,
+        "fields": {
+            "titulo": "Pedro Páramo",
+            "autor": "Juan Rulfo",
+            "isbn": "9788497592224",
+            "genero": "Realismo mágico",
+            "anio_publicacion": 1955,
+            "editorial": "Fondo de Cultura Económica",
+            "descripcion": "Obra maestra del realismo mágico que narra la búsqueda de un padre en un pueblo fantasma.",
+            "activo": true,
+            "fecha_agregado": "2024-03-01T05:00:00Z"
+        }
+    }
+] 

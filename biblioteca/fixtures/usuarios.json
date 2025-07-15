@@ -1,0 +1,222 @@
+[
+    {
+        "model": "biblioteca.usuario",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "admin_principal",
+            "first_name": "María",
+            "last_name": "González",
+            "email": "admin@biblioteca.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-01-15T10:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "administrador",
+            "telefono": "555-0101",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "biblio_central",
+            "first_name": "Carlos",
+            "last_name": "Rodríguez",
+            "email": "biblio.central@biblioteca.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-01-20T09:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "bibliotecario",
+            "telefono": "555-0202",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "biblio_norte",
+            "first_name": "Ana",
+            "last_name": "Martínez",
+            "email": "biblio.norte@biblioteca.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-01-25T08:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "bibliotecario",
+            "telefono": "555-0303",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "biblio_sur",
+            "first_name": "Luis",
+            "last_name": "Hernández",
+            "email": "biblio.sur@biblioteca.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-02-01T07:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "bibliotecario",
+            "telefono": "555-0404",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "juan_perez",
+            "first_name": "Juan",
+            "last_name": "Pérez",
+            "email": "juan.perez@email.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-02-05T10:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "usuario",
+            "telefono": "555-0505",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "maria_lopez",
+            "first_name": "María",
+            "last_name": "López",
+            "email": "maria.lopez@email.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-02-10T11:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "usuario",
+            "telefono": "555-0606",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "pedro_garcia",
+            "first_name": "Pedro",
+            "last_name": "García",
+            "email": "pedro.garcia@email.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-02-15T12:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "usuario",
+            "telefono": "555-0707",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ana_torres",
+            "first_name": "Ana",
+            "last_name": "Torres",
+            "email": "ana.torres@email.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-02-20T13:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "usuario",
+            "telefono": "555-0808",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "carlos_ruiz",
+            "first_name": "Carlos",
+            "last_name": "Ruiz",
+            "email": "carlos.ruiz@email.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-02-25T14:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "usuario",
+            "telefono": "555-0909",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    },
+    {
+        "model": "biblioteca.usuario",
+        "pk": 10,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$test123$test123",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lucia_morales",
+            "first_name": "Lucía",
+            "last_name": "Morales",
+            "email": "lucia.morales@email.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2024-03-01T15:00:00Z",
+            "groups": [],
+            "user_permissions": [],
+            "rol": "usuario",
+            "telefono": "555-1010",
+            "multas_pendientes": "0.00",
+            "suspendido": false
+        }
+    }
+] 
